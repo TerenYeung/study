@@ -10,7 +10,7 @@ A service can run many containers, a single container running in a service is ca
 # print service
 docker service ls
 docker service ps appname
-# print container of service
+# print tasks of service
 docker container ls
 # take down the app and the swarm
 docker stack rm appname
@@ -90,3 +90,32 @@ eval $(docker-machine env -u)
 # restart the machine
 docker-machine start vm1
 ```
+
+## Stack
+
+A stack is group of interrelated services that share dependencies, and can be orchestrated and scaled together.
+
+## Manage application data
+
+All files created inside a container are stored on a writable container layer.
+
+This means that the data doesn't persist when the container is no longer running.
+
+Dockoer has two options for  containers to store files in the host machine, so that the files are persisted, volumes, bind mounts and tmpfs.
+
+### Volumns
+
+Volumns are the preferred mechanism for persisting data gererated by and used by Docker containers, they are completely managed by Docker.
+
+
+
+[note]
+image
+machine
+app
+service
+task(single contianer)
+container
+swarm
+node
+stack
