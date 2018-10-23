@@ -19,9 +19,9 @@ class Set {
         }
         return false
     }
-    del(val) {
+    delete(val) {
         if (this.has(val)) {
-            delete this.item[val]
+            delete this.items[val]
             return true
         }
         return false
@@ -61,20 +61,52 @@ class Set {
     }
     union(otherSet) {
         let unionSet = new Set()
-        let vals = [...this.values(), otherSet.values()]
+        let vals = [...this.values(), ...otherSet.values()]
         for (let val of vals) {
             unionSet.add(val)
         }
         return unionSet
+    }
+    insersection(otherSet) {
+        let insersectionSet = new Set()
+        let vals = this.values()
+        for (let val of vals) {
+            if (otherSet.has(val)) {
+                insersectionSet.add(val)
+            }
+        }
+        return insersectionSet
+    }
+    difference(otherSet) {
+        let differenceSet = new Set()
+        for (let val of this.values()) {
+            if (!otherSet.has(val)) differenceSet.add(val)
+        }
+        return differenceSet
+    }
+    subset(otherSet) {
+        if (this.size() > otherSet.size()) return false
+        else {
+            for (let val of this.values()) {
+                if (!otherSet.has(val)) return false
+            }
+            return true
+        }
     }
 }
 
 let setA = new Set([1, 2, 3])
 setA.add(4)
 setA.add(5)
-
+setA.delete(5)
 console.log(setA.toString())
 console.log(setA.values())
 
 let setB = new Set([4,5,6])
 console.log(setA.union(setB).values())
+console.log(setA.insersection(setB).values())
+console.log(setA.difference(setB).values())
+
+let setC = new Set([1,2])
+console.log('setC is subset of setA: ', setC.subset(setA))
+console.log('setB is subset of setA: ', setB.subset(setA))
