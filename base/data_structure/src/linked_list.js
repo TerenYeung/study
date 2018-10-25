@@ -102,7 +102,7 @@ class LinkdedList {
 	}
 
 }
-
+module.exports = LinkdedList
 let list = new LinkdedList()
 list.append(10)
 list.append(20)
