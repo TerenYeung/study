@@ -28,14 +28,15 @@ class Queue {
     }
 }
 
-let queue = new Queue()
-console.log('isEmpty: ', queue.isEmpty())
-queue.enqueue(1)
-queue.enqueue(2)
-queue.enqueue(3)
-queue.enqueue(4)
-console.log('toArray: ', queue.toArray())
-console.log('size: ', queue.size())
-queue.dequeue()
-queue.dequeue()
-console.log('dequeue: ', queue.toString())
+module.exports = Queue
+// let queue = new Queue()
+// console.log('isEmpty: ', queue.isEmpty())
+// queue.enqueue(1)
+// queue.enqueue(2)
+// queue.enqueue(3)
+// queue.enqueue(4)
+// console.log('toArray: ', queue.toArray())
+// console.log('size: ', queue.size())
+// queue.dequeue()
+// queue.dequeue()
+// console.log('dequeue: ', queue.toString())

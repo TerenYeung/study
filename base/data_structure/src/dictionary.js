@@ -32,14 +32,15 @@ class Map {
     }
 }
 
-let map1 = new Map()
-map1.set('1', 'xxx')
-map1.set('2', 'yyy')
-map1.set('3', 'zzz')
-console.log(map1.getMap())
-console.log(map1.keys())
-console.log(map1.values())
-console.log(map1.delete(2))
-console.log(map1.get(1))
-console.log(map1.get(2))
+module.exports = Map
+// let map1 = new Map()
+// map1.set('1', 'xxx')
+// map1.set('2', 'yyy')
+// map1.set('3', 'zzz')
+// console.log(map1.getMap())
+// console.log(map1.keys())
+// console.log(map1.values())
+// console.log(map1.delete(2))
+// console.log(map1.get(1))
+// console.log(map1.get(2))
 
