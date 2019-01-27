@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG1.1/EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg
+        width="100px"
+        height="100px"
+        viewBox="0 0 100 100"
+        xmlns="http://www.w3.org/2000/svg"
+        xmlns:xlink="http://www.w3.org/1999/xlink"
+>
+    <circle cx="50" cy="50" r="3" style="fill:black;" />
+
+    <defs>
+        <g id="arrow" style="stroke: black;">
+            <line x1="55" y1="50" x2="70" y2="50" />
+            <polygon points="70 50, 68 48, 68 52" />
+        </g>
+
+        <g id="rudder">
+            <use xlink:href="#arrow"/>
+            <use xlink:href="#arrow" transform="rotate(90, 50, 50)"/>
+            <use xlink:href="#arrow" transform="rotate(135, 50, 50)"/>
+            <use xlink:href="#arrow" transform="rotate(180, 50, 50)"/>
+            <use xlink:href="#arrow" transform="rotate(225, 50, 50)"/>    <use xlink:href="#arrow" transform="rotate(45, 50, 50)"/>    <use xlink:href="#arrow" transform="rotate(270, 50, 50)"/>
+            <use xlink:href="#arrow" transform="rotate(315, 50, 50)"/>
+        </g>
+        <g id="box" style="stroke: black; fill: none;">
+            <rect x="35" y="40" width="30" height="20"/>
+        </g>
+        <g id="iterate-box">
+            <use xlink:href="#box" />
+            <use xlink:href="#box" transform="translate(-25, -25) scale(1.5)" style="stroke-width: .66;"/>
+            <use xlink:href="#box" transform="translate(-50, -50) scale(2)" style="stroke-width: .5;"/>
+            <use xlink:href="#box" transform="translate(-75, -75) scale(2.5)" stroke-width=".4"/>
+        </g>
+        <g id="skewX" transform="skewX(30)">
+            <polyline points="50 0, 0 0, 0 50" style="fill:none; stroke-width: 2; stroke:black;"/>
+            <text x="0" y="60">skewX</text>
+        </g>
+        <g id="skewY" >
+            <polyline points="0 0, 30 30, 0 20" style="fill:none; stroke-width: 2; stroke:black;"/>
+            <text x="0" y="60">skewY</text>
+        </g>
+    </defs>
+    <!--<use xlink:href="#rudder"/>-->
+    <!--<use xlink:href="#skewX"/>-->
+    <!--<use xlink:href="#skewY" />-->
+    <!--<use xlink:href="#skewY" transform="skewY(30)"/>-->
+    <g id="ellipse" style="stroke:black;fill:none" >
+        <path d="M20,70 A60,120 0 0 0 80,70" />
+    </g>
+</svg>
