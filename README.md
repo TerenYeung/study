@@ -31,6 +31,14 @@ this is a set of learning summary
 
 👀 [现代操作系统](https://book.douban.com/subject/1390650/)
 
+✅ 北京大学公开课-[操作系统原理](https://www.coursera.org/learn/os-pku) 
+
+- 2019-01-01 ~ 2019-02-28
+
+👊 You Dont't know JavaScript
+
+👊 SVG essential 
+
 ### 2018
 
 ### booklist
@@ -48,3 +56,8 @@ this is a set of learning summary
 👊 [《Node.js 设计模式》](https://book.douban.com/subject/30159269/) 
 
 👊 [note](./base/design_pattern/)
+
+- 2018-06-11 ~ 2018-12-30
+
+算法与数据结构：
+
