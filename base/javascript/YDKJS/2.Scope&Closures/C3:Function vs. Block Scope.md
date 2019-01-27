@@ -1,0 +1,1 @@
+# Function vs. Block Scope
