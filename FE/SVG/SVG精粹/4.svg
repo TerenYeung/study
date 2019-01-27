@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG1.1/EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="200px" height="200px" viewBox="0 0 200 200"  xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+>
+    <line x1="0" y1="0" x2="100" y2="100" stroke-width="1" stroke="black" />
+    <line x1="0" y1="0" x2="50" y2="50" stroke-width="10" stroke="black" stroke-opacity="0.6"/>
+    <line x1="0" y1="100" x2="100" y2="100" stroke="orange" stroke-width="10" stroke-dasharray="10, 10"/>
+    <rect x="0" y="110" width="100" height="20" fill="olive" fill-opacity=".4" stroke="orange" stroke-width="3" stroke-opacity=".8"></rect>
+    <rect x="0" y="140" width="100" height="20" rx="10" ry="2" fill="olive" fill-opacity=".4" stroke="orange" stroke-width="3" ></rect>
+    <circle cx="120" cy="30" r="20" fill="none" stroke="black" />
+    <ellipse cx="120" cy="80" rx="10" ry="20" fill="none" stroke="black"/>
+    <polygon points="150,0 180,0, 170, 10, 140, 10"/>
+
+    <polyline points="10 180, 60 180" stroke="black" stroke-width="4" stroke-linecap="butt"/>
+    <polyline points="10 190, 60 190" stroke="black" stroke-width="4" stroke-linecap="round"/>
+    <polyline points="70 180, 95 190, 120 180"
+              stroke-linejoin="bevel"
+              stroke="black"
+              stroke-width="4" fill="none"/>
+</svg>

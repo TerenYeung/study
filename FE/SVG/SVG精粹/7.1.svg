@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG1.1/EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg
+        width="400px"
+        height="300px"
+        viewBox="0 0 400 300"
+        xmlns="http://www.w3.org/2000/svg"
+        xmlns:xlink="http://www.w3.org/1999/xlink"
+>
+    <circle cx="50" cy="50" r="3" style="fill:black;" />
+
+    <ellipse cx="154" cy="154" rx="150" ry="120" style="fill:#999;"/>
+    <ellipse cx="152" cy="152" rx="150" ry="120" style="fill:#cef;"/>
+    <path d="M302,152 A150,120 0 1 0 2 152" style="fill:#fcc;"/>
+    <path d="M152,152 A75,60 0 1 1 302,152" style="fill:#cef"/>
+</svg>

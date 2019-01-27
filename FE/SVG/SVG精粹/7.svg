@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG1.1/EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg
+        width="150px"
+        height="150px"
+        viewBox="0 0 150 150"
+        xmlns="http://www.w3.org/2000/svg"
+        xmlns:xlink="http://www.w3.org/1999/xlink"
+>
+    <defs>
+        <g style="stroke: black; fill:none">
+            <path d="M10,10 L100,10"/>
+            <path d="M10,20 L100,20 L100,50"/>
+            <path d="M40 60 L20 60 L40 42 M60 60 L80 60 L60 42"/>
+            <path d="M10 80 h90"/>
+
+        </g>
+    </defs>
+
+</svg>
