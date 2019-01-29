@@ -37,6 +37,12 @@ this is a set of learning summary
 
 👊 You Dont't know JavaScript
 
+  ✅ 0. Up & Going (2019-01-20)
+
+  ✅ 1. Scope & Closures (2019-01-29)
+  
+  👊 2. this & Object Prototypes
+  
 👊 SVG essential 
 
 ### 2018
