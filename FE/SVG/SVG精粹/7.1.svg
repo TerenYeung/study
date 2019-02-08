@@ -7,10 +7,39 @@
         xmlns="http://www.w3.org/2000/svg"
         xmlns:xlink="http://www.w3.org/1999/xlink"
 >
-    <circle cx="50" cy="50" r="3" style="fill:black;" />
+    <defs>
+        <g id="taichi">
+            <circle cx="50" cy="50" r="3" style="fill:black;" />
 
-    <ellipse cx="154" cy="154" rx="150" ry="120" style="fill:#999;"/>
-    <ellipse cx="152" cy="152" rx="150" ry="120" style="fill:#cef;"/>
-    <path d="M302,152 A150,120 0 1 0 2 152" style="fill:#fcc;"/>
-    <path d="M152,152 A75,60 0 1 1 302,152" style="fill:#cef"/>
+            <ellipse cx="154" cy="154" rx="150" ry="120" style="fill:#999;"/>
+            <ellipse cx="152" cy="152" rx="150" ry="120" style="fill:#000;"/>
+            <path d="M302,152 A150,120 0 1 0 2 152" style="fill:#fff;"/>
+            <path d="M152,152 A75,60 0 1 1 302,152" style="fill:#000"/>
+
+            <path d="M152,152 A75,60 0 1 1 302,152" style="fill:#fff" transform="rotate(-180, 152, 152)"/>
+        </g>
+
+        <g id="q2">
+            <path d="M30,75 Q240,40 300,120" style="stroke:black;fill:none;stroke-width:4;stroke-linecap: round;" />
+            <path d="M30,105 Q80,60 100,130 130,95 200,110" style="stroke:black;fill:none;stroke-width:6"/>
+        </g>
+        <path d="M30,100 Q80,30 100,100 T200,100" style="stroke:black;fill:none;stroke-width:6"/>
+        <g id="m1">
+            <marker id="mCircle" markerWidth="5" markerHeight="5" refX="3" refY="3">
+                <circle cx="3" cy="3" r="2" style="fill:none;stroke:black;"/>
+            </marker>
+            <marker id="mArrow" markerWidth="4" markerHeight="8" refX="0" refY="4" orient="auto">
+                <path d="M0,0 4,4 0,8" style="fill:none;stroke:black;" />
+            </marker>
+            <marker id="mTriangle" markerWidth="5" markerHeight="10" refX="5" refY="5" orient="auto">
+                <path d="M0,0 5,5 0,10 Z" style="fill:black" />
+            </marker>
+
+            <path d="M10,20 100,20 A20,30 0 0 1 120,50 L120 120" style="fill:none;stroke:black;stroke-width:4;marker-start:url(#mCircle);marker-mid:url(#mArrow);marker-end: url(#mTriangle);"/>
+        </g>
+    </defs>
+
+    <path d="M10,20 100,20 A20,30 0 0 1 120,50 L120 120" style="fill:none;stroke:black;stroke-width:4;marker: url(#mCircle);"/>
+
+
 </svg>

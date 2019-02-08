@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG1.1/EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg
+        width="400px"
+        height="400px"
+        viewBox="0 0 400 400"
+        xmlns="http://www.w3.org/2000/svg"
+        xmlns:xlink="http://www.w3.org/1999/xlink"
+>
+    <defs>
+        <clipPath id="rectClip">
+            <rect id="rect1" x="15" y="15" width="40" height="45" style="stroke:gray;fill:none;"/>
+        </clipPath>
+
+        <g id="c1">
+            <use xlink:href="2.svg#cat" style="clip-path:url(#rectClip);"/>
+            <g transform="translate(100,0)">
+                <use xlink:href="#rect1"/>
+                <use xlink:href="2.svg#cat"/>
+            </g>
+        </g>
+        <g id="shapes">
+            <rect x="0" y="50" width="90" height="60" style="fill:#999"/>
+            <circle cx="25" cy="25" r="25" style="fill:#666"/>
+            <polygon points="30,0 80,0 80,100" style="fill:#ccc;"/>
+        </g>
+        <clipPath id="curveClip">
+            <path id="curve1" d="M5,55 C25,5 45,-25 75,55 85,85 20,105 40,55Z" style="stroke:black;fill:none;"/>
+        </clipPath>
+        <clipPath id="textClip">
+            <text id="text1" x="20" y="20" transform="rotate(60)" style="font-family: 'Liberation Sans'; font-size: 48pt;stroke:black;fill:none; ">
+                CLIP
+            </text>
+        </clipPath>
+    </defs>
+        <!--<use xlink:href="#c1" />-->
+
+
+        <use xlink:href="#shapes" style="clip-path:url(#curveClip)"/>
+        <g transform="translate(0,150)">
+            <use xlink:href="#shapes"/>
+            <use xlink:href="#curve1" />
+        </g>
+
+        <use transform="translate(100,0)" xlink:href="#shapes" style="clip-path:url(#textClip);"/>
+        <g transform="translate(100,150)">
+            <use xlink:href="#shapes"/>
+            <use xlink:href="#text1" />
+        </g>
+</svg>
