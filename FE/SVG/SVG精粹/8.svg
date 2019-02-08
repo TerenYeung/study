@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG1.1/EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg
+        width="200px"
+        height="200px"
+        viewBox="0 0 200 200"
+        xmlns="http://www.w3.org/2000/svg"
+        xmlns:xlink="http://www.w3.org/1999/xlink"
+>
+    <defs>
+        <!--pattern width 和 height 限定图案在画布的占比-->
+        <pattern id="tile" x="0" y="0" width="20%" height="20%" patternUnits="objectBoundingBox">
+<!--这里的尺寸限定在画布的尺寸-->
+            <path d="M0,0 h20 v20 h-20 z" style="stroke:#333;fill:none;"/>
+            <path d="M0,0 Q5,20 10,10 T 20,20" style="stroke:black;fill:none;"/>
+        </pattern>
+    </defs>
+    <rect x="0" y="0" width="100" height="100" style="fill:url(#tile); stroke: black"/>
+</svg>

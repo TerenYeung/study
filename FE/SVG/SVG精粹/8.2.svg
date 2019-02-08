@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG1.1/EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg
+        width="200px"
+        height="200px"
+        viewBox="0 0 200 200"
+        xmlns="http://www.w3.org/2000/svg"
+        xmlns:xlink="http://www.w3.org/1999/xlink"
+>
+    <defs>
+        <pattern
+            id="striple"
+            patternUnits="userSpaceOnUse"
+            x="0"
+            y="0"
+            width="6"
+            height="6"
+        >
+            <path d="M0,0 6,0" style="stroke:black;fill:none;"/>
+        </pattern>
+        <pattern
+                id="polkadot"
+                patternUnits="userSpaceOnUse"
+                x="0"
+                y="0"
+                width="30"
+                height="30"
+        >
+            <circle cx="15" cy="15" r="15" style="fill:url(#striple); stroke:black;"/>
+        </pattern>
+    </defs>
+    <rect x="0" y="0" width="90" height="90" style="fill:url(#polkadot);stroke:black;" />
+</svg>

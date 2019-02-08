@@ -15,6 +15,10 @@ this is a set of learning summary
 
 ### 2019
 
+#### Target
+
+在前端偏交互、动画领域深耕，逐渐成为该领域的专家；
+
 #### plan
 
 👊 1. 设计模式相关博客
@@ -27,7 +31,7 @@ this is a set of learning summary
 
 #### booklist
 
-- 2019-02-01 ~ 2019-02-28
+- 2019-02-01 ~ 2019-03-28
 
 👀 [现代操作系统](https://book.douban.com/subject/1390650/)
 
@@ -43,7 +47,9 @@ this is a set of learning summary
   
   👊 2. this & Object Prototypes
   
-👊 SVG essential 
+- 2019-01-27 ~ 2019-02-09
+
+👊 [SVG 精粹](https://book.douban.com/subject/26640057/)
 
 ### 2018
 
@@ -55,7 +61,7 @@ this is a set of learning summary
 
 👊 [《Head first 设计模式》](https://book.douban.com/subject/2243615/)
 
-👊 [《JavaScript 设计模式与开发实践》](https://book.douban.com/subject/26382780/) 
+✅ 👊 [《JavaScript 设计模式与开发实践》](https://book.douban.com/subject/26382780/) 
 
 👊 [《设计模式之禅》](https://book.douban.com/subject/25843319/)
 

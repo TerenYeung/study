@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG1.1/EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg
+        width="400px"
+        height="400px"
+        viewBox="0 0 400 400"
+        xmlns="http://www.w3.org/2000/svg"
+        xmlns:xlink="http://www.w3.org/1999/xlink"
+>
+    <defs>
+        <g id="t1">
+            <path d="M20,10 20,120 M10,30 100,30 M10,70 100,70 M10,110 100,110" style="stroke:gray;"/>
+            <text x="20" y="30">Simple Text</text>
+            <text x="20" y="70" style="stroke:black;">Outlined/filled</text>
+            <text x="20" y="110" style="stroke:black;fill:none;stroke-width:.5">Outlined only</text>
+        </g>
+    <g id="t2" style="font-size:18pt;">
+        <text x="20" y="20" style="font-weight:bold;">bold</text>
+        <text x="80" y="20" style="font-style:italic;">italic</text>
+        <text x="20" y="50" style="text-decoration:underline;">under</text>
+        <text x="100" y="50" style="text-decoration:overline;">over</text>
+    </g>
+        <g id="t3" style="font-size:14pt;">
+            <path d="M100,10 100,100" style="stroke:gray;fill:none;"/>
+            <text x="100" y="30" style="text-anchor:start">Start is a good friend</text>
+            <text x="100" y="60" style="text-anchor:middle">Middle is a good friend</text>
+            <text x="100" y="90" style="text-anchor:end">End is a good friend</text>
+        </g>
+        <g id="t4" style="font-size: 12pt">
+            <text x="10" y="30">
+                Switch among
+                <tspan style="font-style: italic;">italic</tspan>, normal, and <tspan x="10" y="60" style="font-weight:bold;" dy="0 2 3 4" rotate="0 10 20 30 40">bold</tspan> text.
+                10<tspan baseline-shift="super" font-size="8pt">2</tspan>
+            </text>
+        </g>
+        <g id="t5" style="font-size: 14pt">
+            <path d="M20,10 20,70 M220,10 220,70" style="stroke: gray;"/>
+            <text x="20" y="30" textLength="200" lengthAdjust="spacing">Two words</text>
+            <text x="20" y="60" textLength="200" lengthAdjust="spacingAndGlyphs">Two words</text>
+            <text x="20" y="90">
+                Two words
+                <tspan style="font-size:10pt;">(normal length)</tspan>
+            </text>
+
+            <path d="M20,100 20,170 M100,100 100,170" style="stroke:gray;"/>
+            <text x="20" y="120" textLength="80" lengthAdjust="spacing">Two words</text>
+            <text x="20" y="160" textLength="80" lengthAdjust="spacingAndGlyphs">Two words</text>
+        </g>
+        <g id="t6" style="font-size: 18pt;">
+            <text x="20" y="20" transform="rotate(90,20,20)">Rotated 90</text>
+            <text x="70" y="20" style="writing-mode:tb;">Writing Mode tb</text>
+            <text x="120" y="20" style="writing-mode: tb;glyph-orientation-vertical:0;letter-spacing: -10;word-spacing: -10">Vertical zero</text>
+            <text x="140" y="50" style="writing-mode: lr;glyph-orientation-vertical:0">Vertical zero</text>
+        </g>
+        <g id="t7">
+            <text x="10" y="20">
+                This is
+                <tspan style="font-weight:bold;direction: rtl;unicode-bidi:bidi-override;">right-to-left</tspan>
+            </text>
+        </g>
+        <g id="t8">
+            <circle cx="40" cy="60" r="20" style="fill:none;stroke:black;"/>
+            <g font-size="12pt">
+                <switch>
+                    <g systemLanguage="en-UK">
+                        <text x="10" y="30">A circle</text>
+                        <text x="10" y="100">without colour.</text>
+                    </g>
+                    <g systemLanguage="en">
+                        <text x="10" y="30">A circle</text>
+                        <text x="10" y="100">without color.</text>
+                    </g>
+                    <g systemLanguage="es">
+                        <text x="10" y="30">Un circulo</text>
+                        <text x="10" y="100">sin color.</text>
+                    </g>
+                    <g>
+                        <text x="10" y="30">Default</text>
+                        <text x="10" y="100">default color.</text>
+                    </g>
+                </switch>
+            </g>
+        </g>
+
+        <!--文本路径-->
+        <path id="curvepath" d="M30,40 C50,10 70,10 120,40 S150,0 200,40" style="stroke:gray;fill:none" />
+        <path id="round-corner" d="M250,30 L300,30 A30,30 0 0 1 330,60 L330,110" style="stroke:gray;fill:none"/>
+        <path id="discontinuous" d="M150,100 A40,30 0 1 0 230,110 M250,110 270,140" style="stroke:gray;fill:none"/>
+        <path id="long-corner" d="M0,0 L50,0 A30,30 0 0 1 80,30 L80,80" style="stroke:gray;fill:none" transform="translate(140,200)"/>
+    </defs>
+    <!--<use xlink:href="#t1" x="0" y="0" />-->
+   <!--<use xlink:href="#t2" x="0" y="0"/>-->
+
+
+    <use xlink:href="#curvepath" />
+    <text>
+        <textPath xlink:href="#curvepath">Following a cubic Bezier curve.</textPath>
+    </text>
+
+    <use xlink:href="#round-corner"/>
+    <text>
+        <textPath xlink:href="#round-corner">
+            Going 'round the bend
+        </textPath>
+    </text>
+
+
+    <use xlink:href="#discontinuous"/>
+    <text>
+        <textPath xlink:href="#discontinuous">
+            Text along a broken path
+        </textPath>
+    </text>
+
+
+
+    <use xlink:href="#long-corner"/>
+    <text text-anchor="middle">
+        <textPath xlink:href="#long-corner" startOffset="50%;">
+            center
+        </textPath>
+    </text>
+    <text y="100" xml:space="preserve">
+        hello wor     ld
+    </text>
+</svg>

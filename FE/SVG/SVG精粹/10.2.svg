@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG1.1/EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg
+        width="400px"
+        height="400px"
+        viewBox="0 0 400 400"
+        xmlns="http://www.w3.org/2000/svg"
+        xmlns:xlink="http://www.w3.org/1999/xlink"
+>
+    <defs>
+        <mask id="mask1">
+            <rect  x="0" y="0" width="50" height="50" fill="#fff"/>
+        </mask>
+        <mask id="mask2">
+            <rect  x="50" y="0" width="50" height="50" fill="#bbb"/>
+        </mask>
+        <mask id="mask3">
+            <rect  x="100" y="0" width="50" height="50" fill="#999"/>
+        </mask>
+        <mask id="mask4">
+            <rect  x="150" y="0" width="50" height="50" fill="#666"/>
+        </mask>
+        <mask id="mask5">
+            <rect  x="200" y="0" width="50" height="50" fill="#222"/>
+        </mask>
+    </defs>
+    <rect x="0" y="0" width="50" height="50" fill="#f00" mask="url(#mask1)"/>
+    <rect x="50" y="0" width="50" height="50" fill="#f00" mask="url(#mask2)"/>
+    <rect x="100" y="0" width="50" height="50" fill="#f00" mask="url(#mask3)"/>
+    <rect x="150" y="0" width="50" height="50" fill="#f00" mask="url(#mask4)"/>
+    <rect x="200" y="0" width="50" height="50" fill="#f00" mask="url(#mask5)"/>
+</svg>

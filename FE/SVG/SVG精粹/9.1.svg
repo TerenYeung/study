@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG1.1/EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg
+        width="800px"
+        height="800px"
+        viewBox="0 0 800 800"
+        xmlns="http://www.w3.org/2000/svg"
+        xmlns:xlink="http://www.w3.org/1999/xlink"
+>
+    <defs>
+        <font-face font-family="pangmen">
+            <font-face-src>
+                <font-face-uri xlink:href="pangmen.svg#fonteditor">
+                    <font-face-format string="svg"/>
+                </font-face-uri>
+            </font-face-src>
+        </font-face>
+    </defs>
+    <g id="taichi">
+        <ellipse cx="400" cy="400" rx="200" ry="200" style="fill:#fff;"/>
+        <!--<path d="M200,200 A200,200 0 1 1 400,400 A100,100 0 1 0 600,400" style="fill: #black"/>-->
+        <path d="M200,400 A200,200 0 1 1 600,400 A100,100 0 1 1 400,400 A100, 100 0 1 0 200,400"/>
+        <circle cx="300" cy="400" r="20" />
+        <circle cx="500" cy="400" r="20" style="fill:#fff" />
+
+        <path id="upper-curve" d="M200,400 A200,200 0 1 1 600,400" style="fill:none;stroke:none" />
+        <path id="lower-curve" d="M200,400 A200,200 0 1 0 600,400" style="fill:none;stroke:none" />
+        <text font-family="pangmen,serif" style="font-size:40pt;text-anchor:middle;" transform="translate(0,-10)">>
+            <textPath xlink:href="#upper-curve" startOffset="50%" >
+                太极
+            </textPath>
+        </text>
+
+        <text font-family="pangmen,serif" style="font-size:40pt;text-anchor:middle;" transform="translate(0,50)">
+            <textPath xlink:href="#lower-curve" startOffset="50%">
+                Taichi
+            </textPath>
+        </text>
+    </g>
+
+</svg>
