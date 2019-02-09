@@ -19,7 +19,7 @@ this is a set of learning summary
 
 在前端偏交互、动画领域深耕，逐渐成为该领域的专家；
 
-#### plan
+#### Plan
 
 👊 1. 设计模式相关博客
 
@@ -29,13 +29,21 @@ this is a set of learning summary
 
 👊 4. 唐灵飞经硬笔小楷
 
-#### booklist
+#### Course
+
+- 2018-02-09 ~ 2019-02-28
+
+👊 上海交通大学-[计算机图形学](https://www.bilibili.com/video/av15129423?from=search&seid=10593038503752801914)
+
+- 2018-12-28 ~ 2019-01-15
+
+✅ 北京大学公开课-[操作系统原理](https://www.coursera.org/learn/os-pku) 
+
+#### Booklist
 
 - 2019-02-01 ~ 2019-03-28
 
 👀 [现代操作系统](https://book.douban.com/subject/1390650/)
-
-✅ 北京大学公开课-[操作系统原理](https://www.coursera.org/learn/os-pku) 
 
 - 2019-01-01 ~ 2019-02-28
 
@@ -46,10 +54,18 @@ this is a set of learning summary
   ✅ 1. Scope & Closures (2019-01-29)
   
   👊 2. this & Object Prototypes
-  
+
+- 2019-02-09 ~ 2019-02-16
+
+👊 Jerry M Burger [《人格心理学》](https://book.douban.com/subject/4244803/)
+ 
 - 2019-01-27 ~ 2019-02-09
 
 ✅ [SVG 精粹](https://book.douban.com/subject/26640057/)
+
+- 2019-01-01 ~ 2019-04-30
+
+👊 [《算法》](https://book.douban.com/subject/10432347/)
 
 ### 2018
 
@@ -69,7 +85,6 @@ this is a set of learning summary
 
 👊 [note](./base/design_pattern/)
 
-- 2018-06-11 ~ 2018-12-30
+- 2018-06-11 ~ 2018-12-31
 
-算法与数据结构：
-
+👊 [《算法》](https://book.douban.com/subject/10432347/)
