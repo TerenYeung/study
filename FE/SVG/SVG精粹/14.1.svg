@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG1.1/EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg
+        width="250px"
+        height="250px"
+        viewBox="0 0 250 250"
+        xmlns="http://www.w3.org/2000/svg"
+        xmlns:xlink="http://www.w3.org/1999/xlink"
+        onload="init()"
+        id="clock"
+>
+    <title>Scripted Analog Clock</title>
+    <script type="application/ecmascript">
+        // <![CDATA[
+        if (!window.requestAnimationFrame) {
+            window.requestAnimationFrame = function(animationFunction) {
+                function wrapperFunction() {
+                    animationFunction(Date.now());
+                }
+
+                setTimeout(wrapperFunction, 30);
+            }
+        }
+
+        var clock,
+            hourTransform,
+            minuteTransform,
+            secondTransform;
+
+         var secPerMinute = 60,
+            secPerHour = 60 * 60,
+            secPer12Hours = 60 * 60 * 12;
+
+        function init() {
+
+            clock = document.getElementById('clock');
+            var svgns = clock.namespaceURI, doc = document;
+
+            clock.suspendRedraw(1000);
+
+            /* 创建表盘 */
+            var face = doc.createElementNS(svgns, 'circle');
+
+            face.id = 'face'
+            face.cx.baseVal.value = 125;
+            face.cy.baseVal.value = 125;
+            face.r.baseVal.value = 100;
+            face.style.cssText = 'fill:white;stroke:black';
+            clock.appendChild(face);
+
+
+            /* 创建小时标识的组 */
+            var ticks = clock.appendChild(doc.createElementNS(svgns, 'g'));
+            ticks.setAttribute('transform', 'translate(125,125)');
+
+            /* 创建小时标识 */
+            var tickMark;
+
+            for (var i = 1; i<= 12; i++) {
+                tickMark = ticks.appendChild(doc.createElementNS(svgns, 'path'));
+                tickMark.setAttribute('d', 'M95,0 L100,-5 L100,5 Z');
+                tickMark.setAttribute('transform', 'rotate(' + i * 30 + ')');
+            }
+
+            /* 创建指针标识 */
+            var hands = clock.appendChild(doc.createElementNS(svgns, 'g'));
+            hands.style.cssText = 'stroke:black;stroke-width:5px;stroke-linecap:round;';
+
+            /* 时针 */
+            var hourHand = hands.appendChild(doc.createElementNS(svgns, 'path'));
+            hourHand.id = 'hour';
+            hourHand.setAttribute('d', 'M125,125 L125,75');
+            hourHand.setAttribute('transform', 'rotate(0,125,125)');
+            /* 分针 */
+            var minuteHand = hands.appendChild(doc.createElementNS(svgns, 'path'));
+            minuteHand.id = 'minute';
+            minuteHand.setAttribute('d', 'M125,125 L125,45');
+            minuteHand.setAttribute('transform', 'rotate(0,125,125)');
+            /* 秒针 */
+            var secondHand = hands.appendChild(doc.createElementNS(svgns, 'path'));
+            secondHand.id = 'second';
+            secondHand.setAttribute('d', 'M125,125 L125,30');
+            secondHand.setAttribute('transform', 'rotate(0,125,125)');
+            secondHand.style.cssText = 'stroke:red;stroke-width:2px';
+
+
+            /* 创建中心元素 */
+            var knob = clock.appendChild(doc.createElementNS(svgns, 'circle'));
+            knob.id = 'knob';
+            knob.setAttribute('cx', '125');
+            knob.setAttribute('cy', '125');
+            knob.setAttribute('r', '6');
+            knob.style.setProperty('fill', '#333', null);
+
+            clock.unsuspendRedrawAll();
+
+            // start animation
+            console.log('x', hourHand.transform);
+            hourTransform = hourHand.transform.baseVal.getItem(0);
+            minuteTransform = minuteHand.transform.baseVal.getItem(0);
+            secondTransform = secondHand.transform.baseVal.getItem(0);
+            updateClock();
+        }
+
+        function updateClock() {
+            var date = new Date();
+            var time = date.getMilliseconds()/1000 + date.getSeconds() + date.getMinutes() * 60 + date.getHours() * 60 * 60;
+
+            var s = 360 * (time % secPerMinute) / secPerMinute,
+                m = 360 * (time % secPerHour) / secPerHour,
+                h = 360 * (time % secPer12Hours) / secPer12Hours;
+
+            hourTransform.setRotate(h, 125, 125);
+            minuteTransform.setRotate(m, 125, 125);
+            secondTransform.setRotate(s, 125, 125);
+
+            window.requestAnimationFrame(updateClock);
+        }
+        // ]]>
+    </script>
+</svg>

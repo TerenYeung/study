@@ -37,7 +37,7 @@ this is a set of learning summary
 
 - 2019-01-27 ~ 2019-02-09
 
-👊 [SVG 精粹](https://book.douban.com/subject/26640057/)
+✅ [SVG 精粹](https://book.douban.com/subject/26640057/)
 
 ### 2018
 
