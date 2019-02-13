@@ -55,6 +55,18 @@ this is a set of learning summary
   
   👊 2. this & Object Prototypes
 
+- 2019-02-13 ~ 2019-02-17
+
+👀  思维导图与读书心得
+
+👊  [精进](https://book.douban.com/subject/26761696/)
+
+- 2019-02-09 ~ 2019-02-15
+
+👊 思维导图与读书心得
+
+✅ [解构产品经理：互联网产品策划入门宝典](https://book.douban.com/subject/27666340/)
+
 - 2019-02-09 ~ 2019-02-16
 
 👊 Jerry M Burger [《人格心理学》](https://book.douban.com/subject/4244803/)
