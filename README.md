@@ -55,11 +55,23 @@ this is a set of learning summary
   
   👊 2. this & Object Prototypes
 
-- 2019-02-13 ~ 2019-02-17
+- 2019-02-23 ~ 2019-04-01
+
+👊 [HTML5 + JavaScript 动画基础](https://book.douban.com/subject/24744218/)
+
+- 2019-02-21 ~ 2019-03-01
+
+👊 [大脑使用指南](https://book.douban.com/subject/26876074/)
+
+- 2019-02-20 ~ 2019-03-01
+
+👊 [深度学习的艺术](https://book.douban.com/subject/26649850/)
+
+- 2019-02-13 ~ 2019-02-30
 
 👀  思维导图与读书心得
 
-👊  [精进](https://book.douban.com/subject/26761696/)
+✅ [精进](https://book.douban.com/subject/26761696/)
 
 - 2019-02-09 ~ 2019-02-15
 
@@ -67,10 +79,10 @@ this is a set of learning summary
 
 ✅ [解构产品经理：互联网产品策划入门宝典](https://book.douban.com/subject/27666340/)
 
-- 2019-02-09 ~ 2019-02-16
+- 2019-04-01 ~ 2019-05-01
 
-👊 Jerry M Burger [《人格心理学》](https://book.douban.com/subject/4244803/)
- 
+👀 Jerry M Burger [《人格心理学》](https://book.douban.com/subject/4244803/)
+
 - 2019-01-27 ~ 2019-02-09
 
 ✅ [SVG 精粹](https://book.douban.com/subject/26640057/)
