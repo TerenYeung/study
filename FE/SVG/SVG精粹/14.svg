@@ -7,7 +7,7 @@
         xmlns="http://www.w3.org/2000/svg"
         xmlns:xlink="http://www.w3.org/1999/xlink"
 >
-    <title>SVG Analog Clock</title>
+    <!-- <title>SVG Analog Clock</title> -->
     <g id="clock">
         <circle id="face" cx="125" cy="125" r="100" style="fill:white;stroke:black"/>
         <g id="ticks" transform="translate(125, 125)">

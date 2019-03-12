@@ -31,23 +31,15 @@ this is a set of learning summary
 
 #### Course
 
-- 2018-02-09 ~ 2019-02-28
+- 👊 上海交通大学-[计算机图形学](https://www.bilibili.com/video/av15129423?from=search&seid=10593038503752801914)（2018-02-09 ~ 2019-02-28）
 
-👊 上海交通大学-[计算机图形学](https://www.bilibili.com/video/av15129423?from=search&seid=10593038503752801914)
-
-- 2018-12-28 ~ 2019-01-15
-
-✅ 北京大学公开课-[操作系统原理](https://www.coursera.org/learn/os-pku) 
+- ✅ 北京大学公开课-[操作系统原理](https://www.coursera.org/learn/os-pku)（2018-12-28 ~ 2019-01-15）
 
 #### Booklist
 
-- 2019-02-01 ~ 2019-03-28
+- 👀 [现代操作系统](https://book.douban.com/subject/1390650/)（2019-02-01 ~ 2019-03-28）
 
-👀 [现代操作系统](https://book.douban.com/subject/1390650/)
-
-- 2019-01-01 ~ 2019-02-28
-
-👊 You Dont't know JavaScript
+- 👊 You Dont't know JavaScript（2019-01-01 ~ 2019-02-28）
 
   ✅ 0. Up & Going (2019-01-20)
 
@@ -55,53 +47,42 @@ this is a set of learning summary
   
   👊 2. this & Object Prototypes
 
-- 2019-02-23 ~ 2019-04-01
+- 👊 [HTML5 + JavaScript 动画基础](https://book.douban.com/subject/24744218/)（2019-02-23 ~ 2019-04-01）
 
-👊 [HTML5 + JavaScript 动画基础](https://book.douban.com/subject/24744218/)
+- ✅[练习的心态： 如何培养耐心、专注和自律](https://book.douban.com/subject/26911425/)（2019-03-02 ~ 2019-03-12）
 
-- 2019-02-21 ~ 2019-03-01
+- ✅[学习之道](https://book.douban.com/subject/26895988/)（2019-02-20 ~ 2019-03-02）
 
-👊 [大脑使用指南](https://book.douban.com/subject/26876074/)
+- 👊 [大脑使用指南](https://book.douban.com/subject/26876074/)（2019-02-21 ~ 2019-03-01）
 
-- 2019-02-20 ~ 2019-03-01
+- ✅[深度学习的艺术](https://book.douban.com/subject/26649850/)（2019-02-20 ~ 2019-03-01）
 
-👊 [深度学习的艺术](https://book.douban.com/subject/26649850/)
-
-- 2019-02-13 ~ 2019-02-30
+- ✅ [精进](https://book.douban.com/subject/26761696/)（2019-02-13 ~ 2019-02-30）
 
 👀  思维导图与读书心得
 
-✅ [精进](https://book.douban.com/subject/26761696/)
 
-- 2019-02-09 ~ 2019-02-15
+- ✅ [解构产品经理：互联网产品策划入门宝典](https://book.douban.com/subject/27666340/)（2019-02-09 ~ 2019-02-15）
 
 👊 思维导图与读书心得
 
-✅ [解构产品经理：互联网产品策划入门宝典](https://book.douban.com/subject/27666340/)
+- 👀 Jerry M Burger [《人格心理学》](https://book.douban.com/subject/4244803/)（2019-04-01 ~ 2019-05-01）
 
-- 2019-04-01 ~ 2019-05-01
+- ✅ [SVG 精粹](https://book.douban.com/subject/26640057/)（2019-01-27 ~ 2019-02-09）
 
-👀 Jerry M Burger [《人格心理学》](https://book.douban.com/subject/4244803/)
-
-- 2019-01-27 ~ 2019-02-09
-
-✅ [SVG 精粹](https://book.douban.com/subject/26640057/)
-
-- 2019-01-01 ~ 2019-04-30
-
-👊 [《算法》](https://book.douban.com/subject/10432347/)
+- 👊 [《算法》](https://book.douban.com/subject/10432347/)（2019-01-01 ~ 2019-04-30）
 
 ### 2018
 
 ### booklist
 
-- 2018-11-11 ~ 2018-12-30
+#### 设计模式类：
 
-设计模式类：
+- 2018-11-11 ~ 2018-12-30
 
 👊 [《Head first 设计模式》](https://book.douban.com/subject/2243615/)
 
-✅ 👊 [《JavaScript 设计模式与开发实践》](https://book.douban.com/subject/26382780/) 
+✅ 👊 [《JavaScript 设计模式与开发实践》](https://book.douban.com/subject/26382780/)
 
 👊 [《设计模式之禅》](https://book.douban.com/subject/25843319/)
 
