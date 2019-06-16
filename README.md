@@ -31,11 +31,23 @@ this is a set of learning summary
 
 #### Course
 
+- 👊 3Blue1Brown-[线性代数的本质](https://www.bilibili.com/video/av44855426)
+
 - 👊 上海交通大学-[计算机图形学](https://www.bilibili.com/video/av15129423?from=search&seid=10593038503752801914)（2018-02-09 ~ 2019-02-28）
 
 - ✅ 北京大学公开课-[操作系统原理](https://www.coursera.org/learn/os-pku)（2018-12-28 ~ 2019-01-15）
 
 #### Booklist
+
+- 👊 [富兰克林自传](https://book.douban.com/subject/1313181/)（2019-06-01 ~ 2019-07-04）
+
+- ✅ [程序员的数学3：线性代数](https://book.douban.com/subject/26740548/)（2019-06-03 ~ 2019-06-23）
+
+- ✅ [程序员的数学1](https://book.douban.com/subject/19949020/)（2019-05-23 ~ 2019-06-02）
+
+- ✅ [JavaScript 性能优化：度量、监控与可视化](https://book.douban.com/subject/25854153/)（2019-05-04 ~ 2019-05-20）
+
+- ✅ [安德鲁卡内基自传](https://book.douban.com/subject/25771241/)（2019-05-01 ~ 2019-05-13）
 
 - 👀 [现代操作系统](https://book.douban.com/subject/1390650/)（2019-02-01 ~ 2019-03-28）
 
@@ -47,13 +59,13 @@ this is a set of learning summary
   
   👊 2. this & Object Prototypes
 
-- 👊 [HTML5 + JavaScript 动画基础](https://book.douban.com/subject/24744218/)（2019-02-23 ~ 2019-04-01）
+- ✅ [HTML5 + JavaScript 动画基础](https://book.douban.com/subject/24744218/)（2019-02-23 ~ 2019-04-01）
 
 - ✅[练习的心态： 如何培养耐心、专注和自律](https://book.douban.com/subject/26911425/)（2019-03-02 ~ 2019-03-12）
 
 - ✅[学习之道](https://book.douban.com/subject/26895988/)（2019-02-20 ~ 2019-03-02）
 
-- 👊 [大脑使用指南](https://book.douban.com/subject/26876074/)（2019-02-21 ~ 2019-03-01）
+- ✅ [大脑使用指南](https://book.douban.com/subject/26876074/)（2019-02-21 ~ 2019-03-01）
 
 - ✅[深度学习的艺术](https://book.douban.com/subject/26649850/)（2019-02-20 ~ 2019-03-01）
 
