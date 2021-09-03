@@ -1,0 +1,69 @@
+// h5
+
+joyrun-web
+
+- 本地 build 不同环境
+
+- 推送到不同分支不同 dist 目录
+
+- develop 自动更新静态资源到服务器，master 手动更新静态资源到服务器
+
+janos-activity
+
+- 本地 build 不同环境
+
+- 推送到不同分支不同 dist 目录
+
+- 测试环境登录 jenkins 构建 develop 分支，生产环境根据不同服务器跑不同 rundesk
+
+
+悦货/线上马
+
+
+
+新线上马
+
+- 同 joyrun-web
+
+onfire-h5
+
+// web
+
+neo
+
+- 同 joyrun-web 项目
+
+fittness-admin
+
+erp
+
+- 同 joyrun-activity
+
+品牌号后台 mp
+
+- 同 joyrun-activity
+
+悦跑官网
+
+- 官网测试跑 jenkins
+
+- 官网正式跑 rundesk
+
+// node
+
+web-service
+
+- develop 自动更新项目代码到测试服务器，master 手动更新项目代码到生产服务器
+
+janos-back janos h5 活动
+
+- 同 joyrun-activity
+
+mp-egg-server 跑乐后台
+
+- 同 joyrun-activity
+
+
+
+
+
